@@ -38,6 +38,6 @@ jobs:
 
       - name: Test 🧪
         run: |
-          CXX=clang meson build-clang
+          CXX=clang++ meson build-clang
           cd build-clang
           ninja test
